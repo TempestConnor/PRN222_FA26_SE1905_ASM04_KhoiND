@@ -16,6 +16,8 @@ public partial class HorseClubDBContext
         var config = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
             .AddJsonFile("appsettings.json")
+            // Per-machine override (e.g. ConnectionStrings__DefaultConnection) without editing appsettings.json.
+            .AddEnvironmentVariables()
             .Build();
 
         string connectionString = config.GetConnectionString(connectionStringName)
