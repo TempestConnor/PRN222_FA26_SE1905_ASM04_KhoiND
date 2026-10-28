@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HorseClub.Entities.KhoiND/HorseClub.Entities.KhoiND.csproj" />
+  <Project Path="HorseClub.Repositories.KhoiND/HorseClub.Repositories.KhoiND.csproj" />
+  <Project Path="HorseClub.Services.KhoiND/HorseClub.Services.KhoiND.csproj" />
+  <Project Path="HorseClub.WorkerService.KhoiND/HorseClub.WorkerService.KhoiND.csproj" />
+</Solution>
